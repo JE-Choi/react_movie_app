@@ -23,6 +23,10 @@ class ClassComponentTest extends React.Component{
     componentDidUpdate(){
         console.log("componentDidUpdate");
     }
+
+    componentWillUnmount(){
+        console.log("componentWillUnmount");
+    }
     
     render(){
         console.log("render");

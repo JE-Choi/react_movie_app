@@ -6,6 +6,7 @@ function Food({food}){
     <div>나는 {food}을 좋아해요~</div>
     );
 }
+
 function PropsTest() {
   return (
       <>

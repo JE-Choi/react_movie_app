@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import PropsTest from './prac/PropsTest';
 import MapTest from './prac/MapTest';
+import ClassComponentTest from './prac/ClassComponentTest';
 
 ReactDOM.render(
-    <MapTest />,
+    <ClassComponentTest />,
   document.getElementById('root')
 );

@@ -6,6 +6,6 @@ import MapTest from './prac/MapTest';
 import ClassComponentTest from './prac/ClassComponentTest';
 
 ReactDOM.render(
-    <ClassComponentTest />,
+    <App />,
   document.getElementById('root')
 );

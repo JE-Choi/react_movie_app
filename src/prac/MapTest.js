@@ -27,12 +27,16 @@ const foodILike = [
     }
 ];
 
+function renderFood(dish){
+    return <Food food = {dish.name} image = {dish.image} key = {dish.id}/>;
+}
+
 function MapTest() {
   return (
       <>
         <h1>Hello</h1>
-        {/* map으로 반환되는 것은 object이다. */}
-        {foodILike.map(dish => (<Food food = {dish.name} image = {dish.image} key = {dish.id}/>))}
+        {/* map을 함수로 돌릴 수도 있다. => 이 경우 요소 값은 함수 인자로 전달됨. */}
+        {foodILike.map(renderFood)}
       </>
   );
 }
